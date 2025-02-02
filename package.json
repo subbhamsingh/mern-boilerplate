@@ -1,0 +1,29 @@
+{
+  "name": "mern-boilerplate-generator",
+  "version": "1.0.3",
+  "description": "A CLI tool to generate a MERN stack boilerplate with all necessary setup.",
+  "main": "index.js",
+  "bin": {
+    "create-mern-app": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mern",
+    "boilerplate",
+    "cli",
+    "react",
+    "express",
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "Rajveer",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "shelljs": "^0.8.5"
+  }
+}
